@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Install phase starting..."
+  build:
+    commands:
+      - echo "🏗️ Build phase running..."
+      - echo "👋 Welcome back to your AWS CI Pipeline!"
+      - echo "✅ This message is from CodeBuild!"
